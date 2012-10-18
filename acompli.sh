@@ -1,6 +1,7 @@
 #!/bin/bash
 shopt -s nullglob nocaseglob
 
+echo  "File	Title	Extension	Size(KB)"
 find . -print0 | while read -d $'\0' file
 
 do 
@@ -15,10 +16,6 @@ do
 				;;
 			 htm|html|shtm|shtml|PHP|php|DWT|dwt)
 				title=`sed -n 's/.*<title>\(.*\)<\/title>.*/\1/ip;T;q' $file`
-				#title=`sed -n '/<title>/,/<\/title>/{
-				#	s/^.*<title>//
-				#	s/<\/title>.*$//
-				#	p}' $file`
 				;;
 
 			png|jpg|jpeg|gif)
@@ -33,5 +30,5 @@ do
 		esac
 	fi
 	size=`du -s "$file" | cut -d'	' -f1`
-	echo  "$file	$title"
+	echo  "$file	$title	$ext	$size"
 done
