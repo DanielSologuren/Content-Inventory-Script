@@ -20,7 +20,7 @@ work and make you do the last 10%.
 SHOULD KINDA LOOK LIKE THIS:
 
 |File  |Title	|Ext	|Size	|
-___________________________
+______ _______ _____ _____
 |      |      |     |     |
 |      |      |     |     |
 |      |      |     |     |
