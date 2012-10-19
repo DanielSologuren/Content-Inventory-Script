@@ -16,3 +16,13 @@ NOTES:
 remain uniform when makeing several changes
 * This is not meant to get 100% perfect results. The automation of doing this content inventory is to do 90% of the
 work and make you do the last 10%.
+
+SHOULD KINDA LOOK LIKE THIS:
+
+|File  |Title	|Ext	|Size	|
+___________________________
+|      |      |     |     |
+|      |      |     |     |
+|      |      |     |     |
+|      |      |     |     |
+|      |      |     |     |
