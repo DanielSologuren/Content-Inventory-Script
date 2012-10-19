@@ -5,8 +5,8 @@ This shell script expands the "find" command to extract components for a content
 
 HOW TO USE:
   1. Open in terminal the folder/site you want to create the inventory with.
-  2. Run the command: acompli.sh > content.txt
-  3. This saves the output result into a txt file
+  2. Run the command: acompli.sh > [YOUR FILE].txt
+  3. This saves the output result into a .txt file
   4. Import this txt file into Excel
   5. Pat yourself on the back.
 
